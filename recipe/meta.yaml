@@ -1,4 +1,4 @@
-{% set version = "0.3.2" %}
+{% set version = "0.3.3" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/d/datafiller/datafiller-{{ version }}.tar.gz
-  sha256: 169c9ccb1b99eb503430414c6ef859c034f0df3ff5d80cc424f71a28c39e699e
+  sha256: 67a4b485cdb13f94ae5b27aac0a1097cf512b8e4a97ba5e5828cabb255b8ef06
 
 build:
   noarch: python
